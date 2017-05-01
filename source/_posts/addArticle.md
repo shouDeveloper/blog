@@ -2,7 +2,7 @@
 title: 提交文章方法
 date: 2017-05-01 13:46:53
 tags: [杂]
-category: [杂]
+photos: [//oj7lzlt0w.bkt.clouddn.com/haida2.jpg]
 ---
 
 ## 第一步
@@ -16,6 +16,8 @@ git pull
 
 首先先把博客源码clone到本地。
 每次添加文章之前记得先pull下。
+
+<!--more-->
 
 ## 第二步
 
