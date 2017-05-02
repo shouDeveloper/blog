@@ -284,6 +284,7 @@ Content
 }
 .content-area {
   padding-top: $header-height;
+  min-height: 66vh;
 }
 .error404 .content-area,
 .page .content-area {
