@@ -1,6 +1,7 @@
 @media screen and (max-width: 767px) {
   .logo a img {
-    height: 36px;
+    height: 30px;
+    margin-top: 10px;
   }
   .site-content {
     min-height: auto;
@@ -11,16 +12,16 @@
   .site-header {
     background: #66cccc;
     position: relative;
+    height: 50px;
     .navbar {
       display: none;
       float: none;
       position: absolute;
       left: 0;
-      top: $header-height;
+      top: 50px;
       padding: 15px 0 15px 30px;
       width: 100%;
       background: #fff;
-      // background: #efefef;
       border-bottom: 1px solid $grey-border;
       box-shadow: 0 2px 3px #dfdfdf;
       z-index: 9999;
@@ -42,6 +43,7 @@
     }
     .button-wrap {
       display: block;
+      padding-top: 16px;
     }
   }
 

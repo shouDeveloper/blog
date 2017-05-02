@@ -1,8 +1,8 @@
 <div class="container">
   <article class="post">
     <% if (item.photos.length) { %>
-    <a href="<%- config.root %><%- item.path %>">
-      <img src="<%- config.root %><%- item.photos[0] %>" alt="<%- item.title %>" class="attachment-post-thumbnail">
+    <a href="<%- config.root %><%- item.path %>" class="post-pic-container">
+      <img src="<%- item.photos[0] %>" alt="<%- item.title %>" class="attachment-post-thumbnail">
     </a>
     <% } %>
     <h1 class="entry-title">
@@ -17,16 +17,17 @@
       </p>
     </div>
     <% } %>
-    
-    <p class="posted-on">
-    <%= item.date.format(config.date_format) %>
-    </p>
-    <div class="tags-links">
-      <% item.tags.each(function(tag){ %>
-      <a href="<%= config.root %>tags/<%= tag.name %>/" rel="tag">
-        <%- tag.name %>
-      </a>
-      <% }); %>
+    <div class="posted-links">
+      <p class="posted-on">
+      <%= item.date.format(config.date_format) %>
+      </p>
+      <div class="tags-links">
+        <% item.tags.each(function(tag){ %>
+        <a href="<%= config.root %>tags/<%= tag.name %>/" rel="tag">
+          <%- tag.name %>
+        </a>
+        <% }); %>
+      </div>
     </div>
   </article>
 </div>

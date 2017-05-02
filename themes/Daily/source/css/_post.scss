@@ -26,6 +26,12 @@
       z-index: 29;
     }
   }
+  .post-pic-container{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    overflow: hidden;
+  }
 }
 .entry-content {
   font-family: -apple-system, BlinkMacSystemFont,"Helvetica Neue","PingFang-SC-Regular","STHeiti", "Helvetica","Arial","Verdana","sans-serif","Microsoft YaHei";

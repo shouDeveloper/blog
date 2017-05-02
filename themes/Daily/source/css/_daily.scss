@@ -344,7 +344,8 @@ Content
 .home .entry-content {
   margin: 1.5em 0;
   p {
-    text-align: center;
+    // text-align: center;
+    text-indent: 2em;
   }
 }
 .posted-on {
@@ -362,7 +363,23 @@ Content
   margin-bottom: 30px;
   a {
     margin: 0 5px;
-    font-style: italic;
+  }
+}
+.posted-links{
+  display: flex;
+  justify-content: center;
+  .posted-on{
+    display: flex;
+    margin-right: 10px;
+  }
+  .tags-links{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    margin-bottom: 0;
+    a:hover{
+      color: #66cccc;
+    }
   }
 }
 .pager {
