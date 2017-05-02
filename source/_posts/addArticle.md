@@ -8,6 +8,7 @@ photos: [http://oj7lzlt0w.bkt.clouddn.com/haida2.jpg]
 ## 第一步
 
 目前只允许在organzation的人员添加文章。
+除了当前方法提交文章，也可以直接私信给我文章，我来发布。
 
 ```bash
 git clone git@github.com:shouDeveloper/blog.git
