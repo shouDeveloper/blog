@@ -19,7 +19,7 @@ highlight:
 nav:
   首页: .
   所有文章: archives
-  关于: about
+  关于: about/
   # rss: atom.xml
 
 # hexo-renderer-sass
