@@ -41,7 +41,8 @@ git merge master
 hexo new new_article_title
 ```
 
-不会使用hexo的可以看下hexo语法
+不会使用hexo的可以看下hexo语法。
+或者直接在suorce/_posts目录下新建markdown文件，文章开头格式要和其他已经存在的文章类似。
 
 ## 第四步
 
