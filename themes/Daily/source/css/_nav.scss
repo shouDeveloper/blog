@@ -2,7 +2,7 @@
   position: fixed;
   width: 100%;
   height: 100%;
-  background: #7e7e7e;
+  background: #e7e7e7;
   opacity: .5;
   z-index: 20;
   display: none;
@@ -10,8 +10,6 @@
 .site-header {
   width: 100%;
   background: #66cccc;
-  // background: #fff;
-  border-bottom: 1px solid #dcdcdc;
   z-index: 30;
   position: fixed;
   top: 0;
@@ -74,6 +72,7 @@
         text-decoration: none;
         line-height: 1.5;
         color: #fff;
+        font-weight: 100;
         &:hover {
           opacity: 1;
         }
@@ -92,7 +91,7 @@
   content: "";
   width: 0%;
   height: 1px;
-  background: #7e7e7e;
+  background: #fff;
   display: block;
   -webkit-transition: width 0.25s ease;
   transition: width 0.25s ease;

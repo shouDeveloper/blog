@@ -279,11 +279,90 @@ Common
 /*--------------------------------------------------------------
 Content
 --------------------------------------------------------------*/
+.custome-index{
+  width: 100%;
+  padding-top: 70px;
+  text-align: center;
+  height: 100%;
+  height: 100vh;
+  .top{
+    background-color: #66cccc;
+    height: 500px;
+    .title{
+      font-size: 30px;
+      font-weight: 300;
+      color: #fff;
+      height: 50px;
+      line-height: 50px;
+    }
+    canvas{
+      width: 990px;
+      margin-top: 150px;
+      bottom: 0;
+    }
+  }
+  .bottom{
+    width: 990px;
+    margin: 0 auto;
+    padding-top: 70px;
+    .item{
+      float: left;
+      width: 330px;
+      text-align: center;
+      i{
+        font-size: 60px;
+        color: #66cccc;
+        cursor:default;
+      }
+      a{
+        margin: 20px auto 0 auto;
+        display: block;
+        width: 120px;
+        font-weight: 200;
+        height: 36px;
+        text-align: center;
+        line-height: 36px;
+        color: #66cccc;
+        border: 1px solid #66cccc;
+        border-radius: 18px;
+        transition: all 0.5s;
+        &:hover{
+          background: #66cccc;
+          color: #fff;
+        }
+      }
+      p{
+        width: 100%;
+        margin-top: 20px;
+        padding: 0 60px;
+        text-align: left;
+        text-indent: 2em;
+        font-size: 15px;
+        color: #000;
+        box-sizing: border-box;
+      }
+    }
+  }
+}
 .site-content {
   min-height: calc(100% - 274px);
+  .post-title{
+    text-align: center;
+    margin-top: 30px;
+    height: 80px;
+    background: #66cccc;
+    font-size: 25px;
+    color: #fff;
+    line-height: 80px;
+    font-weight: 100;
+    transition: all 0.5s;
+    &:hover{
+      color: #66cccc;
+      background-color: #fff;
+    }
+  }
 }
 .content-area {
-  padding-top: $header-height;
   min-height: 66vh;
 }
 .error404 .content-area,
