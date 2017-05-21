@@ -3,14 +3,14 @@ title: vuejs辅导日程
 photos:
   - 'https://cn.vuejs.org/images/logo.png'
 date: 2017-05-21 18:42:14
-tags: ['javascript]
+tags: ['javascript']
 ---
 
 ## 日程
 
 * [第一天](#第一天)
 * [第二天](#2017-05-21)
-
+<!--more-->
 ## 第二天
 
 >2017-05-21
