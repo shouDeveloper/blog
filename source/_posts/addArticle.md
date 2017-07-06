@@ -8,7 +8,7 @@ photos: [http://oj7lzlt0w.bkt.clouddn.com/haida2.jpg]
 ## 第一步
 
 目前只允许在organzation并且在blog-editor team的组织成员添加文章以及修改博客样式。
-要加入blog-editor team的成员私信我@garycyangcn。
+要加入blog-editor team的成员私信我@garychangcn。
 除了以下方法提交文章，也可以直接私信给我或者处于blog-editor team的同学文章(markdown)，我来发布。
 
 ```bash
